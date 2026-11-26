@@ -1,0 +1,664 @@
+{
+ "apple-watch|OWN|No workout running": {
+  "en": "No workout running",
+  "de": "Kein Training läuft",
+  "sv": "Inget pass pågår",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|Not synced yet": {
+  "en": "Not synced yet",
+  "de": "Noch nicht synchronisiert",
+  "sv": "Inte synkat än",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|Open openGym on your iPhone once and your routines show up here.": {
+  "en": "Open openGym on your iPhone once and your routines show up here.",
+  "de": "Öffne openGym einmal auf dem iPhone, dann tauchen deine Routinen hier auf.",
+  "sv": "Öppna openGym på din iPhone en gång så dyker dina rutiner upp här.",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|Start one on your iPhone and it shows up here.": {
+  "en": "Start one on your iPhone and it shows up here.",
+  "de": "Starte eins auf dem iPhone, dann taucht es hier auf.",
+  "sv": "Starta ett på din iPhone så dyker det upp här.",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|All sets done": {
+  "en": "All sets done",
+  "de": "Alle Sätze erledigt",
+  "sv": "Alla set klara",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|measuring": {
+  "en": "measuring",
+  "de": "misst …",
+  "sv": "mäter …",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|%@, set %lld": {
+  "en": "%@, set %lld",
+  "de": "%@, Satz %lld",
+  "sv": "%@, set %lld",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|Calories": {
+  "en": "Calories",
+  "de": "Kalorien",
+  "sv": "Kalorier",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|Heart rate": {
+  "en": "Heart rate",
+  "de": "Puls",
+  "sv": "Puls",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|Hold": {
+  "en": "Hold",
+  "de": "Halten",
+  "sv": "Håll",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|Stop": {
+  "en": "Stop",
+  "de": "Stopp",
+  "sv": "Stopp",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|Start hold": {
+  "en": "Start hold",
+  "de": "Halten starten",
+  "sv": "Starta hållet",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|Workout saved": {
+  "en": "Workout saved",
+  "de": "Training gespeichert",
+  "sv": "Passet sparat",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|Ended on your iPhone": {
+  "en": "Ended on your iPhone",
+  "de": "Am iPhone beendet",
+  "sv": "Avslutat på din iPhone",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|Log this one on your iPhone.": {
+  "en": "Log this one on your iPhone.",
+  "de": "Das hier trägst du am iPhone ein.",
+  "sv": "Logga den här på din iPhone.",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|All done?": {
+  "en": "All done?",
+  "de": "Alles erledigt?",
+  "sv": "Klar?",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|Lock": {
+  "en": "Lock",
+  "de": "Sperren",
+  "sv": "Lås",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|Skip this set?": {
+  "en": "Skip this set?",
+  "de": "Diesen Satz überspringen?",
+  "sv": "Hoppa över det här setet?",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|Turn the Digital Crown to change it.": {
+  "en": "Turn the Digital Crown to change it.",
+  "de": "Dreh an der Digital Crown, um es zu ändern.",
+  "sv": "Vrid på Digital Crown för att ändra.",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|%lld avg · %lld max": {
+  "en": "%lld avg · %lld max",
+  "de": "Ø %lld · max. %lld",
+  "sv": "snitt %lld · max %lld",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|Set %lld of %lld": {
+  "en": "Set %lld of %lld",
+  "de": "Satz %lld von %lld",
+  "sv": "Set %lld av %lld",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|%lld of %lld sets": {
+  "en": "%lld of %lld sets",
+  "de": "%lld von %lld Sätzen",
+  "sv": "%lld av %lld set",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|Tap to change it.": {
+  "en": "Tap to change it.",
+  "de": "Tippe, um es zu ändern.",
+  "sv": "Tryck för att ändra.",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|Added weight": {
+  "en": "Added weight",
+  "de": "Zusatzgewicht",
+  "sv": "Extra vikt",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|Your rest, your next set, or today's workout.": {
+  "en": "Your rest, your next set, or today's workout.",
+  "de": "Deine Pause, dein nächster Satz oder das Training von heute.",
+  "sv": "Din vila, ditt nästa set eller dagens pass.",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|Opens openGym.": {
+  "en": "Opens openGym.",
+  "de": "Öffnet openGym.",
+  "sv": "Öppnar openGym.",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|Hold to finish": {
+  "en": "Hold to finish",
+  "de": "Halten zum Beenden",
+  "sv": "Håll in för att avsluta",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|iPhone out of reach": {
+  "en": "iPhone out of reach",
+  "de": "iPhone außer Reichweite",
+  "sv": "iPhone utom räckhåll",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|No set for %lld min. Still at it?": {
+  "en": "No set for %lld min. Still at it?",
+  "de": "Seit %lld Min. kein Satz. Noch dabei?",
+  "sv": "Inget set på %lld min. Kör du fortfarande?",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|A skipped set is still waiting.": {
+  "en": "A skipped set is still waiting.",
+  "de": "Ein übersprungener Satz wartet noch.",
+  "sv": "Ett överhoppat set väntar fortfarande.",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|Active\nkcal": {
+  "en": "Active\nkcal",
+  "de": "Aktive\nkcal",
+  "sv": "Aktiva\nkcal",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|Metrics": {
+  "en": "Metrics",
+  "de": "Messwerte",
+  "sv": "Mätvärden",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|Zones": {
+  "en": "Zones",
+  "de": "Zonen",
+  "sv": "Zoner",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|avg": {
+  "en": "avg",
+  "de": "Ø",
+  "sv": "snitt",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|No effort rated yet": {
+  "en": "No effort rated yet",
+  "de": "Noch keine Anstrengung bewertet",
+  "sv": "Ingen ansträngning betygsatt än",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|max": {
+  "en": "max",
+  "de": "max",
+  "sv": "max",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|min": {
+  "en": "min",
+  "de": "min",
+  "sv": "min",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|Turn on Apple Health on your iPhone and openGym stays on screen through rests and holds.": {
+  "en": "Turn on Apple Health on your iPhone and openGym stays on screen through rests and holds.",
+  "de": "Schalte auf dem iPhone Apple Health ein, dann bleibt openGym in Pausen und beim Halten im Vordergrund.",
+  "sv": "Slå på Apple Hälsa på iPhone så stannar openGym kvar på skärmen under vila och hållningar.",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|No sets yet": {
+  "en": "No sets yet",
+  "de": "Noch keine Sätze",
+  "sv": "Inga set än",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|+%lld more": {
+  "en": "+%lld more",
+  "de": "+%lld weitere",
+  "sv": "+%lld till",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|OWN|%@ sets": {
+  "en": "%@ sets",
+  "de": "%@ Sätze",
+  "sv": "%@ set",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|PLIST|NSHealthShareUsageDescription": {
+  "en": "openGym shows your heart rate during a workout and next to each set, and uses your birth date for your heart-rate zones.",
+  "de": "openGym zeigt deinen Puls während des Trainings und neben jedem Satz und nutzt dein Geburtsdatum für die Pulszonen.",
+  "sv": "openGym visar din puls under passet och vid varje set och använder ditt födelsedatum för pulszonerna.",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "apple-watch|PLIST|NSHealthUpdateUsageDescription": {
+  "en": "openGym saves your workouts to Apple Health when you switch it on.",
+  "de": "openGym speichert deine Trainings in Apple Health, wenn du das einschaltest.",
+  "sv": "openGym sparar dina pass i Apple Hälsa om du slår på det.",
+  "where": "Apple Watch app. \"iPhone\" stays. %@ is a name, %lld a number."
+ },
+ "wear-os|OWN|open_phone_once": {
+  "en": "Open openGym on your phone once and your routines show up here.",
+  "de": "Öffne openGym einmal auf dem Handy, dann tauchen deine Routinen hier auf.",
+  "sv": "Öppna openGym på telefonen en gång så dyker dina rutiner upp här.",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|start_on_phone": {
+  "en": "Start one on your phone and it shows up here.",
+  "de": "Starte eins auf dem Handy, dann taucht es hier auf.",
+  "sv": "Starta ett på telefonen så dyker det upp här.",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|ended_on_phone": {
+  "en": "Ended on your phone",
+  "de": "Am Handy beendet",
+  "sv": "Avslutat på telefonen",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|log_on_phone": {
+  "en": "Log this one on your phone.",
+  "de": "Das hier trägst du am Handy ein.",
+  "sv": "Logga det här på telefonen.",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|crown_hint": {
+  "en": "Turn the crown to change it.",
+  "de": "Dreh an der Krone, um es zu ändern.",
+  "sv": "Vrid på kronan för att ändra.",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|quick_start": {
+  "en": "Quick start",
+  "de": "Schnellstart",
+  "sv": "Snabbstart",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|rest_day": {
+  "en": "Nothing planned. Your call.",
+  "de": "Nichts geplant. Deine Entscheidung.",
+  "sv": "Inget planerat. Ditt val.",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|tile_desc": {
+  "en": "Your streak and today’s plan.",
+  "de": "Deine Serie und der Plan für heute.",
+  "sv": "Din svit och dagens plan.",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|complication_desc": {
+  "en": "Your sets so far, or your streak.",
+  "de": "Deine Sätze bisher oder deine Serie.",
+  "sv": "Dina set hittills, eller din svit.",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|notif_running": {
+  "en": "Workout running. Tap to jump back in.",
+  "de": "Training läuft. Tippen und weiter geht’s.",
+  "sv": "Passet pågår. Tryck för att hoppa in igen.",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|hr_why": {
+  "en": "Allow heart rate to see your pulse on every set.",
+  "de": "Erlaube den Puls, dann siehst du ihn bei jedem Satz.",
+  "sv": "Tillåt puls för att se den vid varje set.",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|phone_away": {
+  "en": "Phone out of reach. Your sets wait here.",
+  "de": "Handy außer Reichweite. Deine Sätze warten hier.",
+  "sv": "Telefonen är utom räckhåll. Dina set väntar här.",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|phone_out_of_reach": {
+  "en": "Phone out of reach",
+  "de": "Handy außer Reichweite",
+  "sv": "Telefonen utom räckhåll",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|media_title": {
+  "en": "Music",
+  "de": "Musik",
+  "sv": "Musik",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|media_prev": {
+  "en": "Previous track",
+  "de": "Vorheriger Titel",
+  "sv": "Föregående låt",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|media_play": {
+  "en": "Play or pause",
+  "de": "Abspielen oder Pause",
+  "sv": "Spela eller pausa",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|media_next": {
+  "en": "Next track",
+  "de": "Nächster Titel",
+  "sv": "Nästa låt",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|media_quieter": {
+  "en": "Quieter",
+  "de": "Leiser",
+  "sv": "Tystare",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|media_louder": {
+  "en": "Louder",
+  "de": "Lauter",
+  "sv": "Högre",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|media_now_playing": {
+  "en": "Now playing",
+  "de": "Läuft gerade",
+  "sv": "Spelas nu",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|media_on_watch": {
+  "en": "Playing on your watch",
+  "de": "Läuft auf deiner Uhr",
+  "sv": "Spelas på klockan",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|media_phone_hint": {
+  "en": "Music on your phone? Media Controls has it.",
+  "de": "Musik auf dem Handy? Die hat Mediensteuerung.",
+  "sv": "Musik på telefonen? Den finns i Mediekontroller.",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|media_open": {
+  "en": "Open Media Controls",
+  "de": "Mediensteuerung öffnen",
+  "sv": "Öppna Mediekontroller",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|zones": {
+  "en": "Zones",
+  "de": "Zonen",
+  "sv": "Zoner",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|no_age_set": {
+  "en": "No age set",
+  "de": "Alter fehlt",
+  "sv": "Ingen ålder angiven",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|add_birth_year": {
+  "en": "Add your birth year on the phone",
+  "de": "Geburtsjahr am Handy eintragen",
+  "sv": "Lägg till ditt födelseår i telefonappen",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|zone_n": {
+  "en": "Zone %1$d",
+  "de": "Zone %1$d",
+  "sv": "Zon %1$d",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|band_to": {
+  "en": "%1$d to %2$d",
+  "de": "%1$d bis %2$d",
+  "sv": "%1$d till %2$d",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|band_under": {
+  "en": "under %1$d",
+  "de": "unter %1$d",
+  "sv": "under %1$d",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|band_over": {
+  "en": "%1$d and up",
+  "de": "ab %1$d",
+  "sv": "%1$d och uppåt",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|zone_current": {
+  "en": "current",
+  "de": "aktuell",
+  "sv": "aktuell",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|no_sets_yet": {
+  "en": "No sets yet",
+  "de": "Noch keine Sätze",
+  "sv": "Inga set än",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|n_more": {
+  "en": "+%1$d more",
+  "de": "+%1$d weitere",
+  "sv": "+%1$d till",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|n_sets": {
+  "en": "%1$s sets",
+  "de": "%1$s Sätze",
+  "sv": "%1$s set",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|max": {
+  "en": "max",
+  "de": "max",
+  "sv": "max",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "wear-os|OWN|min": {
+  "en": "min",
+  "de": "min",
+  "sv": "min",
+  "where": "Wear OS watch app (\"phone\", not \"iPhone\"). %1$s is a name, %1$d a number."
+ },
+ "garmin|OWN|app_name": {
+  "en": "openGym",
+  "de": "openGym",
+  "sv": "openGym",
+  "where": "Garmin watch app. No placeholders allowed."
+ },
+ "garmin|OWN|metrics": {
+  "en": "Metrics",
+  "de": "Werte",
+  "sv": "Mätvärden",
+  "where": "Garmin watch app. No placeholders allowed."
+ },
+ "garmin|OWN|open_phone_once": {
+  "en": "In openGym on your phone, open Settings, then Garmin.",
+  "de": "Öffne in openGym auf dem Handy die Einstellungen, dann Garmin.",
+  "sv": "Öppna Inställningar och sedan Garmin i openGym på telefonen.",
+  "where": "Garmin watch app. No placeholders allowed."
+ },
+ "garmin|OWN|next_on_phone": {
+  "en": "Next exercise is on its way from your phone.",
+  "de": "Die nächste Übung kommt gleich vom Handy.",
+  "sv": "Nästa övning är på väg från telefonen.",
+  "where": "Garmin watch app. No placeholders allowed."
+ },
+ "garmin|OWN|waiting_phone": {
+  "en": "Waiting for your phone. Open openGym there if it takes a while.",
+  "de": "Warte aufs Handy. Öffne dort openGym, falls es dauert.",
+  "sv": "Väntar på telefonen. Öppna openGym där om det dröjer.",
+  "where": "Garmin watch app. No placeholders allowed."
+ },
+ "garmin|OWN|record_gc": {
+  "en": "Also save to Garmin Connect",
+  "de": "Auch in Garmin Connect speichern",
+  "sv": "Spara även i Garmin Connect",
+  "where": "Garmin watch app. No placeholders allowed."
+ },
+ "zepp|OWN|not_paired": {
+  "en": "Pair me first: Zepp app, openGym, Settings.",
+  "de": "Erst koppeln: Zepp-App, openGym, Einstellungen.",
+  "sv": "Parkoppla mig först: Zepp-appen, openGym, Inställningar.",
+  "where": "Zepp OS watch app and its settings page in the Zepp phone app."
+ },
+ "zepp|OWN|syncing": {
+  "en": "Checking in with your server…",
+  "de": "Frage deinen Server…",
+  "sv": "Frågar din server…",
+  "where": "Zepp OS watch app and its settings page in the Zepp phone app."
+ },
+ "zepp|OWN|discard_confirm": {
+  "en": "Tap again to discard",
+  "de": "Nochmal tippen zum Verwerfen",
+  "sv": "Tryck igen för att slänga",
+  "where": "Zepp OS watch app and its settings page in the Zepp phone app."
+ },
+ "zepp|SETTING|server": {
+  "en": "Server address",
+  "de": "Serveradresse",
+  "sv": "Serveradress",
+  "where": "Zepp OS watch app and its settings page in the Zepp phone app."
+ },
+ "zepp|SETTING|code": {
+  "en": "Pairing code",
+  "de": "Kopplungscode",
+  "sv": "Parkopplingskod",
+  "where": "Zepp OS watch app and its settings page in the Zepp phone app."
+ },
+ "zepp|SETTING|how": {
+  "en": "In openGym, open Settings, Zepp OS watch, Pair a watch, and type the address and code it shows here.",
+  "de": "Öffne in openGym Einstellungen, Zepp-OS-Uhr, Uhr koppeln, und tippe Adresse und Code hier ein.",
+  "sv": "Öppna Inställningar, Zepp OS-klocka, Parkoppla en klocka i openGym och skriv in adressen och koden här.",
+  "where": "Zepp OS watch app and its settings page in the Zepp phone app."
+ },
+ "zepp|SETTING|pair": {
+  "en": "Pair",
+  "de": "Koppeln",
+  "sv": "Parkoppla",
+  "where": "Zepp OS watch app and its settings page in the Zepp phone app."
+ },
+ "zepp|SETTING|pairing": {
+  "en": "Pairing…",
+  "de": "Kopple…",
+  "sv": "Parkopplar…",
+  "where": "Zepp OS watch app and its settings page in the Zepp phone app."
+ },
+ "zepp|SETTING|paired": {
+  "en": "Paired with {0}. Open openGym on your watch.",
+  "de": "Gekoppelt mit {0}. Öffne openGym auf der Uhr.",
+  "sv": "Parkopplad med {0}. Öppna openGym på klockan.",
+  "where": "Zepp OS watch app and its settings page in the Zepp phone app."
+ },
+ "zepp|SETTING|failed": {
+  "en": "That didn’t work. Check the address and the code, a code lasts ten minutes.",
+  "de": "Hat nicht geklappt. Prüf Adresse und Code, ein Code gilt zehn Minuten.",
+  "sv": "Det gick inte. Kolla adressen och koden, en kod gäller i tio minuter.",
+  "where": "Zepp OS watch app and its settings page in the Zepp phone app."
+ },
+ "zepp|SETTING|unpair": {
+  "en": "Unpair",
+  "de": "Entkoppeln",
+  "sv": "Koppla från",
+  "where": "Zepp OS watch app and its settings page in the Zepp phone app."
+ },
+ "zepp|SETTING|not_paired_yet": {
+  "en": "Not paired yet.",
+  "de": "Noch nicht gekoppelt.",
+  "sv": "Inte parkopplad än.",
+  "where": "Zepp OS watch app and its settings page in the Zepp phone app."
+ },
+ "ios-widgets|STRINGS|Today’s workout": {
+  "en": "Today’s workout",
+  "de": "Heutiges Training",
+  "where": "iPhone home-screen widgets: names and descriptions in the widget gallery."
+ },
+ "ios-widgets|STRINGS|Your plan for today, the week ahead and your streak.": {
+  "en": "Your plan for today, the week ahead and your streak.",
+  "de": "Dein Plan für heute, die Woche und deine Serie.",
+  "where": "iPhone home-screen widgets: names and descriptions in the widget gallery."
+ },
+ "ios-widgets|STRINGS|Streak": {
+  "en": "Streak",
+  "de": "Serie",
+  "where": "iPhone home-screen widgets: names and descriptions in the widget gallery."
+ },
+ "ios-widgets|STRINGS|Weeks in a row with a workout.": {
+  "en": "Weeks in a row with a workout.",
+  "de": "Wochen in Folge mit Training.",
+  "where": "iPhone home-screen widgets: names and descriptions in the widget gallery."
+ },
+ "ios-widgets|STRINGS|Open openGym once to see your plan here.": {
+  "en": "Open openGym once to see your plan here.",
+  "de": "Öffne openGym einmal, dann siehst du hier deinen Plan.",
+  "where": "iPhone home-screen widgets: names and descriptions in the widget gallery."
+ },
+ "ios-widgets|STRINGS|What to show": {
+  "en": "What to show",
+  "de": "Was anzeigen",
+  "where": "iPhone home-screen widgets: names and descriptions in the widget gallery."
+ },
+ "ios-widgets|STRINGS|And beside it": {
+  "en": "And beside it",
+  "de": "Und daneben",
+  "where": "iPhone home-screen widgets: names and descriptions in the widget gallery."
+ },
+ "ios-widgets|STRINGS|Week streak": {
+  "en": "Week streak",
+  "de": "Wochen-Serie",
+  "where": "iPhone home-screen widgets: names and descriptions in the widget gallery."
+ },
+ "ios-widgets|STRINGS|Weight goal": {
+  "en": "Weight goal",
+  "de": "Gewichtsziel",
+  "where": "iPhone home-screen widgets: names and descriptions in the widget gallery."
+ },
+ "ios-widgets|STRINGS|This week": {
+  "en": "This week",
+  "de": "Diese Woche",
+  "where": "iPhone home-screen widgets: names and descriptions in the widget gallery."
+ },
+ "ios-widgets|STRINGS|Next workout": {
+  "en": "Next workout",
+  "de": "Nächstes Training",
+  "where": "iPhone home-screen widgets: names and descriptions in the widget gallery."
+ },
+ "ios-widgets|STRINGS|Records": {
+  "en": "Records",
+  "de": "Rekorde",
+  "where": "iPhone home-screen widgets: names and descriptions in the widget gallery."
+ },
+ "ios-widgets|STRINGS|Volume": {
+  "en": "Volume",
+  "de": "Volumen",
+  "where": "iPhone home-screen widgets: names and descriptions in the widget gallery."
+ },
+ "ios-widgets|STRINGS|Your streak, weight goal, week, next workout, records or volume. You pick.": {
+  "en": "Your streak, weight goal, week, next workout, records or volume. You pick.",
+  "de": "Serie, Gewichtsziel, Woche, nächstes Training, Rekorde oder Volumen. Du wählst.",
+  "where": "iPhone home-screen widgets: names and descriptions in the widget gallery."
+ },
+ "ios-widgets|STRINGS|Pick what the widget shows.": {
+  "en": "Pick what the widget shows.",
+  "de": "Wähle, was das Widget zeigt.",
+  "where": "iPhone home-screen widgets: names and descriptions in the widget gallery."
+ },
+ "ios-widgets|STRINGS|Challenges": {
+  "en": "Challenges",
+  "de": "Herausforderungen",
+  "where": "iPhone home-screen widgets: names and descriptions in the widget gallery."
+ }
+}
