@@ -2,19 +2,34 @@
 <!-- openGym on Wear OS, fi. Written by frontend/android/wear/wear-strings.mjs: change that, not this. -->
 <resources>
     <string name="add_birth_year">Lisää syntymävuotesi puhelimessa</string>
+    <string name="add_session_note">Lisää treenikerran muistiinpano</string>
     <string name="added_weight">Lisäpaino</string>
     <string name="all_done_q">Kaikki valmista?</string>
     <string name="all_sets_done">Kaikki sarjat tehty</string>
     <string name="all_synced">Kaikki synkronoitu</string>
     <string name="allow">Salli</string>
+    <string name="archived_stay_on_phone">Arkistoidut ohjelmat jäävät puhelimeesi.</string>
     <string name="avg">ka.</string>
     <string name="band_over">vähintään %1$d</string>
     <string name="band_to">%1$d–%2$d</string>
     <string name="band_under">alle %1$d</string>
     <string name="body_weight">Kehonpaino</string>
     <string name="bodyweight">Kehonpaino</string>
+    <string name="bpm">%1$s bpm</string>
     <string name="calories">Kalorit</string>
     <string name="cancel">Peruuta</string>
+    <string name="checkin_continue">Jatka</string>
+    <string name="checkin_energy">Energia</string>
+    <string name="checkin_energy_hi">Täynnä virtaa</string>
+    <string name="checkin_energy_lo">Viimeisillä höyryillä</string>
+    <string name="checkin_skip">Ohita tänään</string>
+    <string name="checkin_sleep">Uni</string>
+    <string name="checkin_sleep_hi">Nukuin kuin tukki</string>
+    <string name="checkin_sleep_lo">Tuskin lainkaan unta</string>
+    <string name="checkin_sore">Lihasarkuus</string>
+    <string name="checkin_sore_hi">Joka paikkaa kolottaa</string>
+    <string name="checkin_sore_lo">Missään ei kolota</string>
+    <string name="checkin_title">Miten voit tänään?</string>
     <string name="complication_desc">Tähänastiset sarjasi tai putkesi.</string>
     <string name="continue_workout">Jatka treeniä</string>
     <string name="crown_hint">Muuta kääntämällä kruunua.</string>
@@ -22,6 +37,7 @@
     <string name="discard_workout_q">Hylätäänkö treeni?</string>
     <string name="done">Valmis</string>
     <string name="edit">Muokkaa</string>
+    <string name="edit_session_note">Muokkaa treenikerran muistiinpanoa</string>
     <string name="effort">Rasitus</string>
     <string name="ended_on_phone">Lopetettu puhelimella</string>
     <string name="exercises">Liikkeet</string>
@@ -33,6 +49,7 @@
     <string name="heart_rate">Syke</string>
     <string name="hold">Pidä</string>
     <string name="hold_to_finish">Lopeta pitämällä</string>
+    <string name="hours">Tunnit</string>
     <string name="how_hard">Kuinka raskas sarja oli?</string>
     <string name="hr_avg_max">ka. %1$d · max %2$d</string>
     <string name="hr_why">Salli syke, niin näet sen joka sarjalla.</string>
@@ -56,10 +73,12 @@
     <string name="media_quieter">Hiljemmalle</string>
     <string name="media_title">Musiikki</string>
     <string name="min">min</string>
+    <string name="min_minutes">min</string>
     <string name="more">Lisää</string>
     <string name="muscles">Lihakset</string>
     <string name="n_more">+%1$d lisää</string>
     <string name="n_sets">%1$s sarjaa</string>
+    <string name="new_record">Uusi ennätys</string>
     <string name="next_set_btn">Seuraava sarja</string>
     <string name="no_age_set">Ikää ei asetettu</string>
     <string name="no_effort_yet">Rasitusta ei vielä arvioitu</string>
@@ -67,6 +86,8 @@
     <string name="no_sets_yet">Ei vielä sarjoja</string>
     <string name="no_workout">Ei treeniä käynnissä</string>
     <string name="none">Ei mitään</string>
+    <string name="not_a_watch_body">Se toimii vain Wear OS -kellossa. Pidä se toistaiseksi asennettuna: sen poistaminen poistaa tämän puhelimen treenit. Näin saat puhelinsovelluksen takaisin: github.com/DuarteSantos8/openGym/issues/1359</string>
+    <string name="not_a_watch_title">Tämä on kellosovellus</string>
     <string name="not_now">Ei nyt</string>
     <string name="not_synced">Ei vielä synkronoitu</string>
     <string name="notif_running">Treeni käynnissä. Jatka napauttamalla.</string>
@@ -74,11 +95,14 @@
     <string name="overview">Yleiskatsaus</string>
     <string name="personal_records">Ennätykset</string>
     <string name="phone_away">Puhelin ei ulottuvilla. Sarjasi odottavat tässä.</string>
+    <string name="phone_connected">Puhelin yhdistetty</string>
+    <string name="phone_gone">Puhelin poissa</string>
     <string name="phone_out_of_reach">Puhelin ei ulottuvilla</string>
     <string name="previous_set">Edellinen sarja</string>
     <string name="prs">Ennätykset</string>
     <string name="quick_checkin">Pikapunnitus</string>
     <string name="quick_start">Pika-aloitus</string>
+    <string name="records">Ennätykset</string>
     <string name="reps">Toistot</string>
     <string name="rest">Tauko</string>
     <string name="rest_day">Ei suunnitelmaa. Sinä päätät.</string>
@@ -87,6 +111,7 @@
     <string name="routines">Ohjelmat</string>
     <string name="save">Tallenna</string>
     <string name="save_and_start">Tallenna ja aloita treeni</string>
+    <string name="saved">Tallennettu</string>
     <string name="set_of">Sarja %1$d / %2$d</string>
     <string name="sets">Sarjat</string>
     <string name="sets_of">%1$d / %2$d sarjaa</string>
@@ -106,7 +131,7 @@
     <string name="time">Aika</string>
     <string name="today">Tänään</string>
     <string name="up_next">Seuraavaksi</string>
-    <string name="up_next_set">%1$s, sarja %2$d</string>
+    <string name="up_next_set">%1$s, sarja %2$d/%3$d</string>
     <string name="volume">Volyymi</string>
     <string name="waiting_sync">Odottaa synkronointia</string>
     <string name="warmup">Lämmittely</string>
