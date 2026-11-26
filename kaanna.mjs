@@ -5,6 +5,7 @@
 //   node kaanna.mjs sanasto                         Gemini oikolukee sanasto.json:n (ensin!)
 //   node kaanna.mjs ui        --repo C:\koodi\openGym  käyttöliittymä  -> frontend/src/locales/fi.js
 //   node kaanna.mjs liikkeet  --repo C:\koodi\openGym  liikepankki     -> catalogue/i18n/fi.json
+//   node kaanna.mjs erota     --repo C:\koodi\openGym  korjaa samat suomenkieliset nimet eri liikkeillä
 //   node kaanna.mjs natiivit                        kellojen ja widgettien tekstit: natiivit-lahde.json -> tyo\natiivit-fi.json
 //   node kaanna.mjs tarkistus --repo C:\koodi\openGym  CSV-tiedostot läpiluentaan (Excel)
 //
@@ -440,6 +441,49 @@ async function runNative() {
   report(failed, 'natiivit-virheet.txt')
 }
 
+
+// ---------------------------------------------------------------- samat nimet
+async function runDistinct() {
+  const exDir = path.join(REPO, 'catalogue', 'exercises')
+  const outPath = path.join(REPO, 'catalogue', 'i18n', 'fi.json')
+  const fi = readJSON(outPath, null)
+  if (!fi) die('Tiedostoa ei löydy: ' + outPath)
+  if (!MODEL) die('Mallia ei ole valittu. Anna --model <id> tai aseta OPENROUTER_MODEL.')
+  if (!KEY) die('OPENROUTER_API_KEY puuttuu.')
+  const en = id => readJSON(path.join(exDir, id + '.json'), {})
+  // Ryhmät: sama suomenkielinen nimi, eri englanninkieliset nimet.
+  const groups = new Map()
+  for (const [id, r] of Object.entries(fi)) { const g = groups.get(r.name) || []; g.push(id); groups.set(r.name, g) }
+  const todo = [...groups.entries()].filter(([, ids]) => new Set(ids.map(id => en(id).name)).size > 1)
+  console.log(`${todo.length} nimeä on käytössä useammalla eri liikkeellä.`)
+  const system = `You fix Finnish exercise names in a workout app's exercise library. Several different exercises (different English names) received the same Finnish name, which makes search and lists confusing.
+For each group, look at the English names, equipment, target and steps. If the exercises are genuinely different movements or variants, give each one a distinct, short, natural Finnish name (lowercase) that says what differs (grip, position, equipment, side, direction...). If two English names are only synonyms for exactly the same movement (same equipment, same steps), they may keep the same Finnish name: then return the same name for both.
+${glossaryText()}
+You get {"group": {"current": "...", "exercises": {"id": {"en": "...", "equipment": "...", "target": "...", "steps": [...]}}}}.
+Answer with only a JSON object {"id": "finnish name", ...} for every exercise id you got.`
+  const batches = chunk(todo, 12, 9000, ([, ids]) => ids.length * 400)
+  let changed = 0, finished = 0
+  await pool(batches, CONC, async batch => {
+    const input = Object.fromEntries(batch.map(([name, ids], i) => [String(i + 1), {
+      current: name,
+      exercises: Object.fromEntries(ids.map(id => { const e = en(id); return [id, { en: e.name, equipment: e.equipment, target: e.target, steps: (e.instructions || []).slice(0, 4) }] })),
+    }]))
+    let out
+    try { out = await chat(system, JSON.stringify(input, null, 1)) } catch (e) { console.error('\n' + e.message); return }
+    for (const [, ids] of batch) for (const id of ids) {
+      const v = out[id]
+      if (typeof v === 'string' && v.trim() && !v.includes('—') && v.trim().toLowerCase() !== fi[id].name) { fi[id].name = v.trim().toLowerCase(); changed++ }
+    }
+    finished += batch.length
+    progress(finished, todo.length, 0)
+    writeAtomic(outPath, JSON.stringify(fi, null, 2) + '\n')
+  })
+  const left = [...new Map(Object.entries(fi).reduce((m, [id, r]) => (m.set(r.name, [...(m.get(r.name) || []), id]), m), new Map())).entries()]
+    .filter(([, ids]) => new Set(ids.map(id => en(id).name)).size > 1)
+  console.log(`\n${changed} nimeä muutettu. Samoja nimiä jäljellä ${left.length} (Gemini piti niitä samana liikkeenä).`)
+  writeAtomic(path.join(WORK, 'samat-nimet-jaljella.txt'), left.map(([n, ids]) => `${n}: ${ids.map(id => `${id} (${en(id).name})`).join(' / ')}`).join('\n') + '\n')
+}
+
 // ---------------------------------------------------------------- läpiluku
 function csv(rows) {
   const q = v => '"' + String(v ?? '').replace(/"/g, '""') + '"'
@@ -486,9 +530,9 @@ async function runModels() {
 }
 
 // ----------------------------------------------------------------
-const run = { ui: runUi, liikkeet: runEx, tarkistus: runReview, mallit: runModels, sanasto: runGlossary, natiivit: runNative }[cmd]
+const run = { ui: runUi, liikkeet: runEx, tarkistus: runReview, mallit: runModels, sanasto: runGlossary, natiivit: runNative, erota: runDistinct }[cmd]
 if (!run) {
-  console.log(fs.readFileSync(fileURLToPath(import.meta.url), 'utf8').split('\n').slice(1, 24).map(l => l.replace(/^\/\/ ?/, '')).join('\n'))
+  console.log(fs.readFileSync(fileURLToPath(import.meta.url), 'utf8').split('\n').slice(1, 25).map(l => l.replace(/^\/\/ ?/, '')).join('\n'))
   process.exit(cmd ? 1 : 0)
 }
 const t0 = Date.now()
