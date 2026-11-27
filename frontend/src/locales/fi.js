@@ -2469,7 +2469,7 @@ export default {
   "landmine": "landmine",
   "weight plate": "levypaino",
   "strength": "voima",
-  "calisthenics": "calisthenics",
+  "calisthenics": "kalisteniikka",
   "olympic": "painonnosto",
   "plyometrics": "plyometria",
   "isometric": "isometrinen",
