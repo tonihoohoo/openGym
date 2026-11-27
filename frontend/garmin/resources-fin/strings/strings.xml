@@ -60,7 +60,7 @@
     <string id="time">Aika</string>
     <string id="today">Tänään</string>
     <string id="up_next">Seuraavaksi</string>
-    <string id="up_next_set">$1$, sarja $2$</string>
+    <string id="up_next_set">$1$, sarja $2$/$3$</string>
     <string id="volume">Volyymi</string>
     <string id="waiting_phone">Odotetaan puhelinta. Avaa openGym siellä, jos kestää.</string>
     <string id="waiting_sync">Odottaa synkronointia</string>
