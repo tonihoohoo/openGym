@@ -57286,15 +57286,13 @@
     ]
   },
   "0316": {
-    "name": "Aukaisu vinopenkillä myötäotteella käsipainoilla",
-    "description": "Vinopenkkiliike, jossa painot lasketaan rinnan sivuille ja punnerretaan ylös. Kohdistuu ylärintaan.",
+    "name": "Aukaisu vinopenkillä käsipainoilla (kämmenet eteenpäin)",
+    "description": "Aukaisu vinopenkillä käsipainoilla kämmenet eteenpäin. Kädet avautuvat leveälle lähes suorina ja kaartuvat takaisin yhteen rinnan yläpuolelle, mikä harjoittaa ylärintaa.",
     "instructions": [
-      "Säädä vinopenkki 45 asteen kulmaan.",
-      "Istu penkille selkä selkänojaa vasten ja jalat lattialla.",
-      "Tartu käsipainoihin myötäotteella niin, että kämmenet osoittavat eteenpäin.",
-      "Aloita kädet suorina, kohtisuorassa lattiaan nähden.",
-      "Laske käsipainoja hitaasti rinnan sivuille pitäen kyynärpäät 90 asteen kulmassa.",
-      "Pysähdy hetkeksi alhaalla ja punnerra painot takaisin aloitusasentoon.",
+      "Säädä vinopenkki noin 45 asteen kulmaan ja istu selkä sitä vasten käsipaino kummassakin kädessä.",
+      "Punnerra käsipainot ylärinnan yläpuolelle kämmenet eteenpäin ja kädet lähes suorina.",
+      "Pidä kyynärpäät kevyesti koukussa ja avaa kädet leveässä kaaressa sivuille, kunnes tunnet venytyksen rinnassa.",
+      "Supista rintalihaksia ja tuo käsipainot kaaressa takaisin ylös, kunnes ne kohtaavat rinnan yläpuolella kämmenet yhä eteenpäin.",
       "Tee haluamasi määrä toistoja."
     ]
   },
@@ -60091,7 +60089,7 @@
     ]
   },
   "0576": {
-    "name": "Rintapunnerrus vipuvarsilaitteessa",
+    "name": "Rintapunnerrus vipuvarsilaitteessa (levypainot)",
     "description": "Laitepunnerrus, jossa työnnät kahvoja eteenpäin rintakehältä. Työstää rintaa, etuolkapäitä ja ojentajia.",
     "instructions": [
       "Säädä istuimen korkeus ja asetu laitteeseen niin, että selkä on tasaisesti pehmustetta vasten.",
