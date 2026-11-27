@@ -8,7 +8,7 @@ export const LANGS = {
   it: 'Italiano', pt: 'Português (Portugal)', 'pt-BR': 'Português (Brasil)', pl: 'Polski', cs: 'Čeština', lt: 'Lietuvių',
   tr: 'Türkçe', ru: 'Русский', uk: 'Українська', zh: '简体中文', 'zh-TW': '繁體中文',
   ja: '日本語', ko: '한국어', hi: 'हिन्दी', bn: 'বাংলা', th: 'ไทย', hu: 'Magyar', sv: 'Svenska', ar: 'العربية',
-  id: 'Bahasa Indonesia', vi: 'Tiếng Việt', fa: 'فارسی', da: 'Dansk'
+  id: 'Bahasa Indonesia', vi: 'Tiếng Việt', fa: 'فارسی', da: 'Dansk', fi: 'Suomi'
 }
 // Languages with exercise instructions / names, generated from catalogue/i18n by
 // scripts/catalogue/build.mjs. A pack can be partial; what it lacks shows in English.
@@ -23,7 +23,7 @@ export const DATE_LOCALES = {
   pt: 'pt-PT', 'pt-BR': 'pt-BR',
   pl: 'pl-PL', tr: 'tr-TR', ru: 'ru-RU', uk: 'uk-UA', zh: 'zh-CN', 'zh-TW': 'zh-TW',
   ja: 'ja-JP', ko: 'ko-KR', hi: 'hi-IN', bn: 'bn-BD-u-nu-latn', th: 'th-TH', hu: 'hu-HU', sv: 'sv-SE',
-  ar: 'ar-u-nu-latn', id: 'id-ID', vi: 'vi-VN', cs: 'cs-CZ', lt: 'lt-LT', da: 'da-DK',
+  ar: 'ar-u-nu-latn', id: 'id-ID', vi: 'vi-VN', cs: 'cs-CZ', lt: 'lt-LT', da: 'da-DK', fi: 'fi-FI',
   // The planner uses Gregorian months; keep its labels and numeric inputs on the same calendar and digits.
   fa: 'fa-IR-u-ca-gregory-nu-latn'
 }
@@ -255,7 +255,7 @@ const englishInParens = n => (RTL_LANGS.has(baseLang(lang)) ? `\u2068(${n})\u206
 // the English names ("supino com barra"). Left without the title-casing English gets, those
 // read all lower-case in every list, card and history row. A new pack goes here only when it
 // carries real casing; i18n-core.test.js checks this list against the packs themselves.
-export const CASED_NAME_LANGS = ['de', 'cs']
+export const CASED_NAME_LANGS = ['de', 'cs', 'fi']
 // Lower-case packs for languages that never title-case (#1247): "Подъём На Носки И Приседание С
 // Гирей" reads like a bumpy road to a Russian speaker. Their names get a capital first letter
 // only, here in the text rather than with CSS, so the watch, widgets and Apple Health get it too,
